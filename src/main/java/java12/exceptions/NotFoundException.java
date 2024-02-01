@@ -1,2 +1,7 @@
-package java12.exceptions;public class NotFoundException {
+package java12.exceptions;
+
+public class NotFoundException extends RuntimeException{
+    public NotFoundException(String message) {
+        super(message);
+    }
 }
